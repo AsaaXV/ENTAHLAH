@@ -23,7 +23,7 @@ ${positif}
 *Negatif:*
 ${negatif}
 
-*© K O M O S U H A I - B O T Z*
+*© ANU - B O T Z*
 `.trim())
     }
     else throw json

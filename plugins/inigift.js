@@ -5,7 +5,7 @@ const { MessageType } = require("@adiwajshing/baileys")
 let handler = async (m, { conn, usedPrefix }) => {
 let beli = `Gada keuntungan nya bang, mending premium aja:v`.trim()
 
-await conn.send2Button(m.chat, beli.trim(), '© K O M O S U H A I - B O T Z', 'Goprem', '.goprem', 'Okelah', '.ndak', { sendEphemeral: true, quoted: m })}
+await conn.send2Button(m.chat, beli.trim(), '© ANU - B O T Z', 'Goprem', '.goprem', 'Okelah', '.ndak', { sendEphemeral: true, quoted: m })}
 
 handler.help = ['belikode']
 handler.tags = ['hadiah']

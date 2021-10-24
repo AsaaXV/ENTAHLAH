@@ -17,7 +17,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 		conn.reply(m.chat, `*Anti-Bucin Batu berhasil di nonaktifkan.*`, m)
 	} else {
 		await conn.updatePresence(m.chat, Presence.composing) 
-		conn.send2Button(m.chat, 'Hayoloh', '© K O M O S U H A I - B O T Z', 'on', '.antibucin nobucinbang', 'off', '.antibucin bucinbang',m)
+		conn.send2Button(m.chat, 'Hayoloh', '©ANU - BOTZ', 'on', '.antibucin nobucinbang', 'off', '.antibucin bucinbang',m)
 	} 
 }
 handler.help = ['antibucin']

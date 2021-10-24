@@ -3,7 +3,7 @@ let info = `
 ╭─「 INFO BOT 」
 │
 │> Bot Recoded By :
-│• A N D Y - O F F C
+│• A N U - O F F C
 │
 │> Bot Dibuat Dengan :
 │• JavaScript via NodeJS

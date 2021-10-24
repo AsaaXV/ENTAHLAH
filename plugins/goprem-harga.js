@@ -4,7 +4,7 @@ let prem = `
 10k / 1 Bulan
 20k / Permanen`.trim()
 
-conn.sendButton(m.chat, prem.trim(), '© K O M O S U H A I - B O T Z', 'Gas chat owner', '.owner', { sendEphemeral: true, quoted: m })}
+conn.sendButton(m.chat, prem.trim(), '© ANU - B O T Z', 'Gas chat owner', '.owner', { sendEphemeral: true, quoted: m })}
 
 handler.command = /^(piro)$/i
 

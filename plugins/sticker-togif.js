@@ -27,7 +27,7 @@ let handler = async (m, { conn, media, usedPrefix, command, isPrems }) => {
                 saving.on("finish", () => {
                     conn.sendMessage(m.chat, fs.readFileSync(`./tmp/${filename}-done.mp4`), MessageType.video, {
                         mimetype: Mimetype.gif,
-                        caption: `*© K O M O S U H A I - B O T Z*`,
+                        caption: `*© ANU - B O T Z*`,
                         quoted: m,
                     })
                     if (fs.existsSync(savedFilename)) fs.unlinkSync(savedFilename)
